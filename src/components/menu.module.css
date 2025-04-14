@@ -1,0 +1,23 @@
+.navBar{
+    width: 100%;
+    position: fixed !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg);
+    color: var(--text);
+
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.87);
+    padding: 40px 0;
+    text-align: center;
+    color: white;
+    gap: 1vw;
+    width: 100%;
+    flex-wrap: wrap;
+}
