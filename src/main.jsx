@@ -29,6 +29,7 @@ const router = createBrowserRouter([
     path: "/calcs",
     element: <Calcs/>,
   },
+ 
 ]);
 
 createRoot(document.getElementById('root')).render(

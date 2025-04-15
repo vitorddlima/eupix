@@ -13,3 +13,16 @@ h3{
     margin-left: 10px;
     flex-wrap: wrap;
 }
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -120px;
+   
+}
+.formulario h2{
+    margin-right: 150px;
+    color: black;
+}
+

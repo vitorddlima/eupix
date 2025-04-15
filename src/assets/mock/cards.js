@@ -1,8 +1,8 @@
-import photo1 from '../images/tiagobpz.png';
+import photo1 from '../images/vc.jpg';
 
 export const cards = [
     {
-        text: "Tiago - tenho 18 anos e estou cursando TDS este é um trabalho de revisão.",
+        text: "Ola sou Vitor aluno do senai ",
         img: photo1
     }
 ];

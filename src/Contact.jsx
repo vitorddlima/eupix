@@ -7,7 +7,7 @@ import "leaflet-defaulticon-compatibility";
 import { Menu } from "./components/menu";
 
 function Contact() {
-  const position = [-25.3757884,-49.3025628];
+  const position = [-25.412623,-49.281861917];
     const defaultPhoneNumber = "5541997636778" 
   
     const [formData, setFormData] = useState({
@@ -46,17 +46,18 @@ function Contact() {
         />
         <Marker position={position}>
           <Popup>
-            A pretty CSS3 popup. <br /> Easily customizable.
+            A casa do seth brians. <br /> ele não tem cavalo ele tem o voyage.
           </Popup>
         </Marker>
       </MapContainer>
       </section>
-      <section id = 's2'>
+      <section className={style.formulario}>
+        <h2>Contato</h2>
       <input placeholder='Insira seu nome' type="text" id='name' name='name' value={formData.name} onChange={handleChange} required/><br /><br />
           <input placeholder='Insira seu email' type="email" id='email' name='email' value={formData.email} onChange={handleChange} required/><br /><br />
-          <textarea placeholder='Insira mensagem' id='message' name='message' value={formData.message} onChange={handleChange} cols="30" rows="10" required></textarea>
+          <textarea placeholder='Insira mensagem' id='message' name='message' value={formData.message} onChange={handleChange} cols="30" rows="10" required></textarea><br /><br />
           <button onClick={handleZap}>Enviar mensagem</button>
-      </section>
+      </section><br /><br /><br /><br /><br /><br />
     </>
 
 
